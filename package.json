@@ -1,0 +1,18 @@
+{
+  "name": "typescript-node-starter",
+  "version": "1.0.0",
+  "description": "A boilerplate to start a typescript node application",
+  "scripts": {
+    "start": "nodemon",
+    "build": "rimraf ./build && tsc"
+  },
+  "author": "Wanderson César",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "@types/node": "^14.14.37"
+  }
+}
